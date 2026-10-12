@@ -1,0 +1,58 @@
+{
+ "id": 25,
+ "name": "pikachu",
+ "genera": [
+  {
+   "genus": "Mouse Pok\u00e9mon",
+   "language": {
+    "name": "en",
+    "url": "https://pokeapi.co/api/v2/language/9/"
+   }
+  },
+  {
+   "genus": "\u306d\u305a\u307f\u30dd\u30b1\u30e2\u30f3",
+   "language": {
+    "name": "ja",
+    "url": "https://pokeapi.co/api/v2/language/11/"
+   }
+  }
+ ],
+ "flavor_text_entries": [
+  {
+   "flavor_text": "When several of\nthese POK\u00e9MON\ngather, their\felectricity could\nbuild and cause\nlightning storms.",
+   "language": {
+    "name": "en",
+    "url": "https://pokeapi.co/api/v2/language/9/"
+   },
+   "version": {
+    "name": "red",
+    "url": "https://pokeapi.co/api/v2/version/1/"
+   }
+  },
+  {
+   "flavor_text": "When several of\nthese POK\u00e9MON\ngather, their\felectricity could\nbuild and cause\nlightning storms.",
+   "language": {
+    "name": "en",
+    "url": "https://pokeapi.co/api/v2/language/9/"
+   },
+   "version": {
+    "name": "blue",
+    "url": "https://pokeapi.co/api/v2/version/2/"
+   }
+  },
+  {
+   "flavor_text": "It keeps its tail\nraised to monitor\nits surroundings.\fIf you yank its\ntail, it will try\nto bite you.",
+   "language": {
+    "name": "en",
+    "url": "https://pokeapi.co/api/v2/language/9/"
+   },
+   "version": {
+    "name": "yellow",
+    "url": "https://pokeapi.co/api/v2/version/3/"
+   }
+  }
+ ],
+ "evolution_chain": {
+  "url": "https://pokeapi.co/api/v2/evolution-chain/10/"
+ }
+}

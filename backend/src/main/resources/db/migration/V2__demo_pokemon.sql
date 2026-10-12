@@ -1,0 +1,46 @@
+-- Demo data (static snapshot of PokeAPI so the app works offline)
+INSERT INTO local_pokemon (id, pokeapi_id, name, image_url, sprite_url, category, height_m, weight_kg, localized_name, region, notes, synced_at, updated_at) VALUES (1, 1, 'bulbasaur', 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png', 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png', 'Seed Pokémon', 0.7, 6.9, 'Fushigidane (JP)', 'KANTO', 'First Pokemon in the national dex.', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+INSERT INTO local_pokemon_type (pokemon_id, position, type) VALUES (1, 0, 'grass');
+INSERT INTO local_pokemon_type (pokemon_id, position, type) VALUES (1, 1, 'poison');
+INSERT INTO local_pokemon_ability (pokemon_id, position, ability) VALUES (1, 0, 'overgrow');
+INSERT INTO local_pokemon_ability (pokemon_id, position, ability) VALUES (1, 1, 'chlorophyll');
+INSERT INTO local_pokemon_tag (pokemon_id, tag) VALUES (1, 'starter');
+INSERT INTO local_pokemon_tag (pokemon_id, tag) VALUES (1, 'grass-team');
+INSERT INTO local_pokemon (id, pokeapi_id, name, image_url, sprite_url, category, height_m, weight_kg, localized_name, region, notes, synced_at, updated_at) VALUES (2, 4, 'charmander', 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png', 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png', 'Lizard Pokémon', 0.6, 8.5, 'Hitokage (JP)', 'KANTO', NULL, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+INSERT INTO local_pokemon_type (pokemon_id, position, type) VALUES (2, 0, 'fire');
+INSERT INTO local_pokemon_ability (pokemon_id, position, ability) VALUES (2, 0, 'blaze');
+INSERT INTO local_pokemon_ability (pokemon_id, position, ability) VALUES (2, 1, 'solar-power');
+INSERT INTO local_pokemon_tag (pokemon_id, tag) VALUES (2, 'starter');
+INSERT INTO local_pokemon_tag (pokemon_id, tag) VALUES (2, 'fire-team');
+INSERT INTO local_pokemon (id, pokeapi_id, name, image_url, sprite_url, category, height_m, weight_kg, localized_name, region, notes, synced_at, updated_at) VALUES (3, 7, 'squirtle', 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png', 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png', 'Tiny Turtle Pokémon', 0.5, 9.0, 'Zenigame (JP)', 'KANTO', NULL, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+INSERT INTO local_pokemon_type (pokemon_id, position, type) VALUES (3, 0, 'water');
+INSERT INTO local_pokemon_ability (pokemon_id, position, ability) VALUES (3, 0, 'torrent');
+INSERT INTO local_pokemon_ability (pokemon_id, position, ability) VALUES (3, 1, 'rain-dish');
+INSERT INTO local_pokemon_tag (pokemon_id, tag) VALUES (3, 'starter');
+INSERT INTO local_pokemon (id, pokeapi_id, name, image_url, sprite_url, category, height_m, weight_kg, localized_name, region, notes, synced_at, updated_at) VALUES (4, 25, 'pikachu', 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png', 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png', 'Mouse Pokémon', 0.4, 6.0, 'Pikachu (JP)', 'KANTO', 'Internal mascot of the demo.', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+INSERT INTO local_pokemon_type (pokemon_id, position, type) VALUES (4, 0, 'electric');
+INSERT INTO local_pokemon_ability (pokemon_id, position, ability) VALUES (4, 0, 'static');
+INSERT INTO local_pokemon_ability (pokemon_id, position, ability) VALUES (4, 1, 'lightning-rod');
+INSERT INTO local_pokemon_tag (pokemon_id, tag) VALUES (4, 'mascot');
+INSERT INTO local_pokemon_tag (pokemon_id, tag) VALUES (4, 'electric-team');
+INSERT INTO local_pokemon (id, pokeapi_id, name, image_url, sprite_url, category, height_m, weight_kg, localized_name, region, notes, synced_at, updated_at) VALUES (5, 133, 'eevee', 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png', 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png', 'Evolution Pokémon', 0.3, 6.5, 'Eievui (JP)', 'KANTO', 'Good example of a branched evolution chain.', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+INSERT INTO local_pokemon_type (pokemon_id, position, type) VALUES (5, 0, 'normal');
+INSERT INTO local_pokemon_ability (pokemon_id, position, ability) VALUES (5, 0, 'run-away');
+INSERT INTO local_pokemon_ability (pokemon_id, position, ability) VALUES (5, 1, 'adaptability');
+INSERT INTO local_pokemon_ability (pokemon_id, position, ability) VALUES (5, 2, 'anticipation');
+INSERT INTO local_pokemon_tag (pokemon_id, tag) VALUES (5, 'branching-evolution');
+INSERT INTO local_pokemon (id, pokeapi_id, name, image_url, sprite_url, category, height_m, weight_kg, localized_name, region, notes, synced_at, updated_at) VALUES (6, 150, 'mewtwo', 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png', 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png', 'Genetic Pokémon', 2.0, 122.0, NULL, 'KANTO', NULL, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+INSERT INTO local_pokemon_type (pokemon_id, position, type) VALUES (6, 0, 'psychic');
+INSERT INTO local_pokemon_ability (pokemon_id, position, ability) VALUES (6, 0, 'pressure');
+INSERT INTO local_pokemon_ability (pokemon_id, position, ability) VALUES (6, 1, 'unnerve');
+INSERT INTO local_pokemon_tag (pokemon_id, tag) VALUES (6, 'legendary');
+INSERT INTO local_pokemon_tag (pokemon_id, tag) VALUES (6, 'restricted');
+INSERT INTO local_pokemon (id, pokeapi_id, name, image_url, sprite_url, category, height_m, weight_kg, localized_name, region, notes, synced_at, updated_at) VALUES (7, 445, 'garchomp', 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/445.png', 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/445.png', 'Mach Pokémon', 1.9, 95.0, 'Gaburias (JP)', 'SINNOH', NULL, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+INSERT INTO local_pokemon_type (pokemon_id, position, type) VALUES (7, 0, 'dragon');
+INSERT INTO local_pokemon_type (pokemon_id, position, type) VALUES (7, 1, 'ground');
+INSERT INTO local_pokemon_ability (pokemon_id, position, ability) VALUES (7, 0, 'sand-veil');
+INSERT INTO local_pokemon_ability (pokemon_id, position, ability) VALUES (7, 1, 'rough-skin');
+INSERT INTO local_pokemon_tag (pokemon_id, tag) VALUES (7, 'competitive');
+
+-- Identity columns must continue after the explicit ids above
+ALTER TABLE local_pokemon ALTER COLUMN id RESTART WITH 8;
